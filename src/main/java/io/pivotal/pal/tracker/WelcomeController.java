@@ -10,6 +10,7 @@ public class WelcomeController {
 
     private String hello;
 
+
     public WelcomeController(@Value("${welcome.message}") String s) {
         this.hello = s;
     }
